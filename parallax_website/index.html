@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>#</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link href="style.css" rel="stylesheet">
+	<link href="css/nav.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="img/w3-favicon.png"/>
+</head>
+<body>
+	<a name="home">
+<!--- Start Navigation -->
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/main.js"></script> <!--- For Navigation -->
+<div class="nav-outer">
+	<div class="nav-wrap">
+		<nav class="navigation">
+			<div class="logo"><img src="img/logo.png" alt="logo"></div>
+			<div class="nav" nav-menu-style="yoga">
+				<ul class="nav-menu">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#reviews">Reviews</a></li>
+					<li><a href="#contact">Contacts</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</div>
+
+	<div class="nav-clear"></div>
+<!--- End Navigation -->
+	<div class="clearfix"></div>
+<!--- Start Slider -->
+		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
+		<div class="slide-wrap">
+				<section class="slider">
+					<ul class="slider1">
+						<li><img src="https://www.w3newbie.com/wp-content/uploads/slider-image-3.png"></li>
+						<li><img src="https://www.w3newbie.com/wp-content/uploads/slider-image-2.png"></li>
+						<li><img src="https://www.w3newbie.com/wp-content/uploads/slider-image-1.png"></li>
+					</ul>
+				</section>
+
+
+		</div>
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+<!--- End Slider -->
+<a name="about">
+	<div id="banner-wrapper">
+		<h1>Welcome To Our Website</h1>
+		<div class="one-half">
+			<h3>Heading Title Section</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quasi repudiandae culpa enim excepturi, iste magnam necessitatibus aliquid, quas omnis perspiciatis minima? Deleniti quaerat eum porro culpa similique repudiandae. A accusantium nihil tempore.</p>
+		</div>
+		<div class="one-half">
+			<h3>Heading Title Section</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quasi repudiandae culpa enim excepturi, iste magnam necessitatibus aliquid, quas omnis perspiciatis minima? Deleniti quaerat eum porro culpa similique repudiandae. A accusantium nihil tempore.</p>
+		</div>
+	</div>
+
+	<section class="parallax-1">
+		<div class="parallax-inner">
+			<section class="one-third">
+				<h3>Heading title</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit inventore, consectetur modi porro, minus recusandae</p>
+			</section>
+			<section class="one-third">
+				<h3>Heading title</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit inventore, consectetur modi porro, minus recusandae</p>
+			</section>
+			<section class="one-third">
+				<h3>Heading title</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit inventore, consectetur modi porro, minus recusandae</p>
+			</section>
+		</div>
+	</section>
+
+	<section class="left-col">
+		<h1>Heading Title Text</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus fuga cupiditate, possimus voluptatum beatae sit ex explicabo magni praesentium eum sed repellat provident tenetur consequuntur eveniet asperiores odit sequi quae omnis nesciunt dicta.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint officia, repudiandae cupiditate recusandae corrupti totam ratione pariatur ea, esse non id odit deserunt rem commodi.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia architecto laudantium, nulla est maiores molestias in, dolores sunt itaque blanditiis placeat ipsam. Aliquid, minima, dignissimos.</p>
+	</section>
+	<section class="sidebar">
+		<img src="https://www.w3newbie.com/wp-content/uploads/beach-building.jpg" alt="">
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
