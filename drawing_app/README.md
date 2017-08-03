@@ -3,5 +3,5 @@ Using:
 -HTML5 Canvas 
 -Javascript
 
-(Project link)[https://codepen.io/tienpham94/pen/eEdaJg](access with a mobile device to touch draw)
+[Project link](https://codepen.io/tienpham94/pen/eEdaJg)(access with a mobile device to touch draw)
 
