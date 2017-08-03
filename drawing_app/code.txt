@@ -1,0 +1,24 @@
+
+
+var StartTouch = function(event){
+  event.preventDefault();
+  ctx.beginPath();
+  };
+
+var MoveTouch = function(event){
+  event.preventDefault();
+  ctx.lineTo(event.touches[0].pageX,event.touches[0].pageY-15);
+  ctx.stroke();
+  };
+  
+var EndTouch = function(event){
+   event.preventDefault();
+   var img= document.getElementById("scream");
+   ctx.drawImage(img,220,290,60,60);
+   };
+
+
+
+c.addEventListener("touchstart" , StartTouch, false);
+c.addEventListener("touchmove" , MoveTouch , false);
+c.addEventListener("touchend" , EndTouch , false);
